@@ -26,8 +26,7 @@ export default function Detail(props) {
     <div>
       <Nav/>
       {detail.countInStock === 0 ? (
-        <div className="container_detail">
-
+        <div className="container_detail">          
           <div className="cardDetail">
 
             <div className='detail_name_image'>
@@ -38,9 +37,9 @@ export default function Detail(props) {
               <img 
               className='detail_image'
               src={`http://localhost:5000${detail.image}`} alt={detail.name}/>
-
+              
             </div>
-
+            
             <div className='informacion'>
 
               <p className="detail_description">
@@ -56,7 +55,7 @@ export default function Detail(props) {
                 {`Stock: ${detail.countInStock}`}
               </h4>
               <p className="detail_p">
-                {`Rating: ${detail.rating}`}
+                {`Rating: ${detail.rating}`}              
               </p>
               <p className="detail_p">
                 {`Reviews: ${detail.numReviews}`}
@@ -118,7 +117,7 @@ export default function Detail(props) {
           </div>
 
         </div>)}  
-        <footer> Prueba Tecnica Ecomsur: Sixto Tulio Mendoza Garcia</footer>
+        <footer> Prueba Tecnica Ecomsur:  </footer>
 
     </div>
   );

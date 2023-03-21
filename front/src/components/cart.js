@@ -81,7 +81,7 @@ export default function Cart() {
       ))}
       </div>
       
-      <footer> Prueba Tecnica Ecomsur: Sixto Tulio Mendoza Garcia</footer>
+      <footer> Prueba Tecnica Ecomsur:  </footer>
     </div>
   );
 }

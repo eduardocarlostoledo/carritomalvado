@@ -38,7 +38,7 @@ export default function Home() {
           </Fragment>
         ))}
       </div>
-      <footer> Prueba Tecnica Ecomsur: Sixto Tulio Mendoza Garcia</footer>
+      <footer> Prueba Tecnica Ecomsur:  </footer>
     </div>
   );
 }

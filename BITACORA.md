@@ -1,4 +1,4 @@
-Instalación y ejecución del proyecto ""prueba tecnica ecomsur Sixto Tulio Mendoza Garcia""
+Instalación y ejecución del proyecto ""prueba tecnica ecomsur  ""
 Para instalar y ejecutar el proyecto, sigue estos pasos:
 
 Abre una terminal y navega hasta la carpeta principal del proyecto.

@@ -17,7 +17,7 @@ export function Card({ id, stock, product, name, image, price, rating, numReview
     dispatch(decreaseFromCart(id));
   };
   
-  return(
+  return (
     <div>
       {stock === 0 ? (
         <div className="cards">
@@ -26,10 +26,9 @@ export function Card({ id, stock, product, name, image, price, rating, numReview
             <img className="image_product" src={`http://localhost:5000${image}`} alt={name} />
           </Link>
           <p className="parrafo">{price}</p>
-          <p className="parrafo">{rating}</p>
+          <p className="parrafo">{rating}</p>             
           <p className="parrafo">{numReviews}</p>
-          <button 
-          className="boton_card">
+          <button className="boton_card">
             Out of stock
           </button>
         </div>
@@ -40,17 +39,16 @@ export function Card({ id, stock, product, name, image, price, rating, numReview
             <img className="image_product" src={`http://localhost:5000${image}`} alt={name} />
           </Link>
           <p className="parrafo">{price}</p>
-          <p className="parrafo">{rating}</p>
+          <p className="parrafo">{rating}</p>          
           <p className="parrafo">{numReviews}</p>
-          <button 
+          <button
             className="boton_card"
-            onClick={handleAddToCart}>Add item to cart</button>
-          <button 
+            onClick={handleAddToCart}>Add to cart</button>
+          <button
             className="boton_card"
-            onClick={handledecrease}>Remove item from cart</button>
+            onClick={handledecrease}>Remove</button>
         </div>
-    )}
+      )}
     </div>
-  )
-
-}
+  );
+      }
